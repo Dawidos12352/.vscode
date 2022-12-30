@@ -1,0 +1,18 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontWeight": "normal",
+  "editor.inlineSuggest.enabled": true,
+  "html.autoClosingTags": true,
+
+ 
+  "[html]": 
+  { "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.html-language-features" },
+
+
+  "[css]": 
+  { "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
