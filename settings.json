@@ -14,5 +14,21 @@
   "[css]": 
   { "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+
+  
+  "liveSassCompile.settings.formats" : [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "~/../css",
+      "savePathReplacementPairs": null
+    }
+   ],
+   "liveSassCompile.settings.generateMap" : true,
+   "liveSassCompile.settings.autoprefix": [">1%", "last 2 versions"]
+
+ 
+
 }
+
